@@ -1,0 +1,501 @@
+#page3{
+  height: 800px;
+  background-image: linear-gradient(to bottom, #7D99D9 0%, #A6D8DF 100%);
+
+}
+
+#page3 h1{
+  font-family: 'Montserrat', Arial;
+  font-weight: 700;
+  letter-spacing: -5px;
+  color: #546792;
+  font-size: 4.5rem;
+  margin-top: 0;
+  padding-top: 5%;
+  margin-left: 5%;
+}
+#page3 .page3-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+/*ARENES DE LUTECE*/
+
+#page3 .arenes-container{
+  position: relative;
+  width: 50;
+}
+
+#page3 .arenes-container img{
+  display: block;
+  height: 450px;
+}
+.overlay-arenes {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #7ca7ad;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.arenes-container:hover .overlay-arenes {
+  width: 100%;
+  left: 0;
+}
+
+
+.overlay-arenes h3 p {
+
+  color: #110c13;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay-arenes p{
+  font-family: 'Montserrat', Arial;
+  text-align: center;
+  justify-content: center;
+  line-height: 1.5;
+  font-size: 20px;
+  padding: 10px;
+  color: #110c13;
+}
+
+.overlay-arenes h3{
+  padding-top: 10px;
+  font-family: 'Montserrat', Arial;
+  text-align: center;
+  justify-content: center;
+  line-height: 1.2;
+  font-size: 20px;
+  color: #110c13;
+}
+
+/*THERMES DE CLUNY*/
+
+
+
+
+#page3 .cluny-container{
+  position: relative;
+  width: 50;
+}
+
+#page3 .cluny-container img{
+  display: block;
+  height: 450px;
+}
+
+.overlay-cluny {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #7ca7ad;
+  overflow: hidden;
+  width: 0;
+  height: 450px;
+  transition: .5s ease;
+}
+
+.cluny-container:hover .overlay-cluny {
+  width: 100%;
+}
+
+.overlay-cluny h3 p {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay-cluny p{
+  font-family: 'Montserrat', Arial;
+  text-align: center;
+  justify-content: center;
+  line-height: 1.5;
+  font-size: 20px;
+  padding: 10px;
+  color: #110c13;
+}
+
+.overlay-cluny h3 {
+  padding-top: 10px;
+  font-family: 'Montserrat', Arial;
+  text-align: center;
+  justify-content: center;
+  line-height: 1.2;
+  font-size: 20px;
+  color: #110c13;
+}
+
+
+
+
+
+
+/*CRYPTE DE SAINT-DENIS*/
+
+#page3 .crypte-container{
+  position: relative;
+  width: 50;
+}
+
+#page3 .crypte-container img{
+  display: block;
+  height: 450px;
+}
+.overlay-crypte {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #d3def7;
+  overflow: hidden;
+  width: 0;
+  height: 450px;
+  transition: .5s ease;
+}
+.crypte-container:hover .overlay-crypte {
+  width: 100%;
+  left: 0;
+}
+
+.overlay-crypte h3 p {
+  color: #262228;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay-crypte p{
+  font-family: 'Montserrat', Arial;
+  text-align: center;
+  justify-content: center;
+  line-height: 1.5;
+  font-size: 20px;
+  padding: 10px;
+  color: #110c13;
+}
+
+.overlay-crypte h3{
+  padding-top: 5px;
+  font-family: 'Montserrat', Arial;
+  text-align: center;
+  justify-content: center;
+  line-height: 1.2;
+  font-size: 20px;
+  color: #110c13;
+}
+
+
+
+/*CARDO ET DECUMANUS*/
+
+
+
+#page3 .cardo-container{
+  position: relative;
+  width: 50;
+}
+
+#page3 .cardo-container img{
+  display: block;
+  height: 250px;
+}
+
+.overlay-cardo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(234,198,122,0.8);
+  overflow: hidden;
+  width: 0;
+  height: 250px;
+  transition: .5s ease;
+}
+
+.cardo-container:hover .overlay-cardo {
+  width: 100%;
+}
+
+.overlay-cardo h3 p {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*media-queries*/
+@media screen and (max-width:600px){
+  #page3{
+    height: auto;
+    background-image: linear-gradient(to right, #7D99D9 0%, #A6D8DF 100%);
+
+  }
+
+  #page3 h1{
+    font-family: 'Montserrat', Arial;
+    font-weight: 700;
+    letter-spacing: -4px;
+    color: #546792;
+    font-size: 3rem;
+    margin-top: 0;
+    padding-top: 10%;
+    margin-left: 5%;
+  }
+  #page3 .page3-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+#page3 .page3-main img{
+  border: 4px solid #FEFEE2;
+}
+
+
+
+  /*ARENES DE LUTECE*/
+
+  #page3 .arenes-container{
+    position: relative;
+    width: 50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+
+  #page3 .arenes-container img{
+    display: block;
+    height: 450px;
+    align-self: center;
+  }
+  .overlay-arenes {
+    position: relative;
+    display: block;
+    width: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #7ca7ad;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: none;
+    margin: 10px;
+  }
+  .arenes-container:hover .overlay-arenes {
+    display: block;
+    width: auto;
+    left: 0;
+    right: 0;
+    align-self: center;
+  }
+
+
+  .overlay-arenes h3 p {
+
+    color: #110c13;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .overlay-arenes p{
+    font-family: 'Montserrat', Arial;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.5;
+    font-size: 20px;
+    padding: 10px;
+    color: #110c13;
+  }
+
+  .overlay-arenes h3{
+    padding-top: 10px;
+    font-family: 'Montserrat', Arial;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.2;
+    font-size: 20px;
+    color: #110c13;
+  }
+
+  /*THERMES DE CLUNY*/
+
+
+
+
+  #page3 .cluny-container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #page3 .cluny-container img{
+    display: block;
+    height: 450px;
+    align-self: center;
+  }
+
+  .overlay-cluny {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #7ca7ad;
+    overflow: hidden;
+    width: auto;
+    height: 450px;
+    transition: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .cluny-container:hover .overlay-cluny {
+    display: block;
+    width: auto;
+    left: 0;
+    bottom: 0;
+  }
+
+  .overlay-cluny h3 p {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .overlay-cluny p{
+    font-family: 'Montserrat', Arial;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.5;
+    font-size: 20px;
+    padding: 10px;
+    color: #110c13;
+  }
+
+  .overlay-cluny h3 {
+    padding-top: 10px;
+    font-family: 'Montserrat', Arial;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.2;
+    font-size: 20px;
+    color: #110c13;
+  }
+
+
+
+  /*CRYPTE DE SAINT-DENIS*/
+
+  #page3 .crypte-container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #page3 .crypte-container img{
+    display: block;
+    height: 450px;
+    align-self: center;
+  }
+  .overlay-crypte {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #d3def7;
+    overflow: hidden;
+    width: 100%;
+    height: 450px;
+    transition: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .crypte-container:hover .overlay-crypte {
+    display: block;
+    width: 100%;
+    left: 0;
+    margin: 10px;
+  }
+
+  .overlay-crypte h3 p {
+    color: #262228;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .overlay-crypte p{
+    font-family: 'Montserrat', Arial;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.5;
+    font-size: 20px;
+    padding: 10px;
+    color: #110c13;
+  }
+
+  .overlay-crypte h3{
+    padding-top: 5px;
+    font-family: 'Montserrat', Arial;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.2;
+    font-size: 20px;
+    color: #110c13;
+  }
+
+
+
+
+
+
+}
